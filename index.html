@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soul Society</title>
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .hero-section {
+        background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+        padding: 120px 40px;
+        min-height: 100vh;
+      }
+      .feature-icon1 {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(135deg, orange 10%, red 100%);
+        color: white;
+        border-radius: 12px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+      .feature-icon2 {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(135deg, silver 10%, cyan 100%);
+        color: white;
+        border-radius: 12px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+      .feature-icon3 {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(135deg, purple 10%, gold 100%);
+        color: white;
+        border-radius: 12px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+      .card {
+        border: none;
+        transition: transform 0.3s ease-in;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .testimonial-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav bar start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a href="" class="navbar-brand fw-bold text-primary">
+          <i class="bi bi-hypnotize"></i>Soul Society
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Entry">Entry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Testimony">Testimony</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-secondary" href="#GetStarted">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- Hero Section -->
+    <section class="hero-section text-white d-flex align-items-center">
+      <div class="conatiner">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold mb-4">Elevate Your Spirit and Soul</h1>
+            <p class="lead mb-4">
+              Train and pour your soul into an asauchi and call it's name
+            </p>
+            <div
+              class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a
+                class="btn btn-outline-light btn-lg w-100 w-sm-auto"
+                href="#contact"
+                >Get Started</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg w-100 w-sm-auto"
+                href="#contact"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid rounded-4 shadow"
+              src="https://cdn.pixabay.com/photo/2024/05/18/12/46/universe-8770300_1280.jpg"
+              alt="cosmic connect"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section id="Features" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">What Will you Learn ?</h2>
+          <p class="text-muted">Discover what makes us the stronger</p>
+        </div>
+        <div class="row g-4">
+          <!-- feature 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon1">
+                <i class="bi bi-lightning"></i>
+              </div>
+              <h4>Kido Corps</h4>
+              <p class="text-muted">
+                Separate branch of Soul Society's military that excels in the
+                art of Kido.
+              </p>
+            </div>
+          </div>
+          <!-- feature 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon2">
+                <i class="bi bi-wind"></i>
+              </div>
+              <h4>Stealth Squad</h4>
+              <p class="text-muted">
+                Also called the Secret Mobile Unit/Corps, Special Forces or
+                Covert Ops, is the second largest organization that Shinigami
+                join, and one of the three main branches of military in Soul
+                Society.
+              </p>
+            </div>
+          </div>
+          <!-- feature 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon3">
+                <i class="bi bi-sign-intersection"></i>
+              </div>
+              <h4>Royal Guard</h4>
+              <p class="text-muted">
+                Organization that is dedicated to the protection of the Soul
+                King, the Royal Family, and the Soul King Palace.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Entry -->
+    <section id="Entry" class="bg-light py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2>How to Join</h2>
+          <p class="text-muted">Ways to enter one of the Squad</p>
+        </div>
+        <div class="row g-4">
+          <!-- card1 -->
+          <div class="col-lg-4">
+            <div class="card entry-card h-100 p-4">
+              <div class="card-body">
+                <h5 class="text-muted fw-bold">Descendant</h5>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Born from noble
+                    clan
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Should be
+                    recommended by the clan
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Trained by the
+                    clan
+                  </li>
+                  <a class="btn btn-outline-warning" href="#">Get Started</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="col-lg-4">
+            <div class="card entry-card h-100 p-4">
+              <div class="card-body">
+                <span class="badge bg-success mb-2">Best Option</span>
+                <h5 class="text-muted fw-bold">Soul Academy</h5>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Enter the Academy
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Training given by
+                    trained Soul Reapers
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Will learn from
+                    the scratch
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Kido training also
+                    given
+                  </li>
+                  <a class="btn btn-warning" href="#">Get Started</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="col-lg-4">
+            <div class="card entry-card h-100 p-4">
+              <div class="card-body">
+                <h5 class="text-muted fw-bold">Self Learning</h5>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Train yourself
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Take the exam
+                    without classes
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-chevron-double-right"></i>Showcase skills to
+                    a Captain
+                  </li>
+                  <a class="btn btn-outline-warning" href="#">Get Started</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="Testimony" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">What our Captains say</h2>
+          <p class="text-muted">Trusted by 1000s of Shinigami</p>
+        </div>
+        <div class="row g-4">
+          <!-- T1 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items mb-4">
+                <img
+                  class="testimonial-img"
+                  src="https://wallpapercave.com/wp/wp10986255.png"
+                  alt="Byakuya"
+                />
+                <div>
+                  <h5 class="mb-0">Kuchiki Byakuya</h5>
+                  <small class="text-muted">Squad 6 Captain</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                I'm Byakuya from the Kuchiki clan, I don't need any pitiful
+                training from the academy. I'm trained by the head of the clan
+              </p>
+            </div>
+          </div>
+          <!-- T2 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items mb-4">
+                <img
+                  class="testimonial-img"
+                  src="https://images4.alphacoders.com/103/1038728.jpg"
+                  alt="Kyoraku"
+                />
+                <div>
+                  <h5 class="mb-0">Kyoraku Shunsui</h5>
+                  <small class="text-muted">Squad 8 Captain</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                Greetings, I graduated from the soul academy through immense
+                training. I highly recommend the academy
+              </p>
+            </div>
+          </div>
+          <!-- T3 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items mb-4">
+                <img
+                  class="testimonial-img"
+                  src="https://w0.peakpx.com/wallpaper/920/960/HD-wallpaper-shinigami-kenpachi-zaraki-anime-bleach-11th-division-manga-soul-captain-i-am-kenpachi-thousand-year-blood-war-arc.jpg"
+                  alt="Zaraki"
+                />
+                <div>
+                  <h5 class="mb-0">Kenpachi Zaraki</h5>
+                  <small class="text-muted">Squad 11 Captain</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                Never went to academy nor born in royal Family, just trained
+                myself and killed the previous Kenpachi to become a captain 😈
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="GetStarted" class="bg-light py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+              <div class="card-body p-4 p-md-5">
+                <h3 class="fw-bold mb-4">Get In Touch</h3>
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input
+                      class="form-control form-control-lg"
+                      type="text"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input
+                      class="form-control form-control-lg"
+                      type="email"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Info</label>
+                    <textarea
+                      class="form-control form-control-lg"
+                      rows="4"
+                      placeholder="Your District and which squad you want to join"
+                    ></textarea>
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg w-100 mt-4"
+                    >
+                      Send Info
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Gotei 13</h5>
+            <p>The 13 court guard squads.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
